@@ -9,5 +9,31 @@ body {
     padding: 20px;
     border: 1px solid #ddd;
 }
-
+.sec2 {
+    margin: 1;
+    font-size: 10px;
+    padding: 25px;
+}
+.sec3 {
+    margin: 2;
+    font-size: 30px;
+    padding: 5px;
+}
+.sec4 {
+    margin: 3;
+    font-size: 25px;
+    padding: 15px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.sec2,
+.sec3,
+.sec4 {
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+}
 /* Agrega los estilos para las diferentes unidades de medida en cada sección */
