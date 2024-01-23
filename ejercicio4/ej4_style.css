@@ -16,12 +16,12 @@ body {
 }
 .sec3 {
     margin: 2;
-    font-size: 30px;
+    font-size: 3rem;
     padding: 5px;
 }
 .sec4 {
     margin: 3;
-    font-size: 25px;
+    font-size: 2em;
     padding: 15px;
 }
 img {
@@ -35,5 +35,8 @@ img {
     padding: 20px;
     margin: 10px;
     border: 1px solid #ccc;
+}
+.sec2{
+    background-color: aqua;
 }
 /* Agrega los estilos para las diferentes unidades de medida en cada sección */
