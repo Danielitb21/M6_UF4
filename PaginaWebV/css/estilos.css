@@ -1,8 +1,76 @@
-h1{
-    background-color: aqua;
-    
-}
+*{box-sizing: border-box;}
 img{
-    width: 480px;
-    height: 270px;
+    height: 25em;
+    width: auto;
+}
+h1 {
+    font-size: 40px;
+    color: #336699; 
+}
+
+h3, h4 {
+    font-size: 24px;
+}
+
+p {
+    color: purple;
+}
+div{
+    min-width: 500px;
+    max-width: 500px;
+    min-height: 500px;
+    max-height: 800px;
+}
+div.principal {
+    color: purple;
+    margin-left: 500px;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+div.principal p {
+    color: green;
+    opacity: 0.2;
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+#id_contacto {
+    background-color: #f0f0f0; 
+    color: #333; 
+}
+
+
+p {
+    font-size: 16px; 
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: orange;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:focus {
+    background-color: #ccc; /* Puedes cambiar el color de fondo al que desees */
 }
